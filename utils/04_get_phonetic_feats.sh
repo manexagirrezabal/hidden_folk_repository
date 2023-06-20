@@ -1,0 +1,23 @@
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py ru
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py fi
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py esc
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py esl
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py hu
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py mk
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py la
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py jah
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py ko
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py vi
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py hye
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py hyw
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py lt
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py de
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py eo
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py uk
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py hi
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py da
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py tl
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py bg
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py ro
+python3 get_ipa_embeddings_bogstavlyd_ipapy.py jak
+
