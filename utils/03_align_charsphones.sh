@@ -12,9 +12,9 @@ cat tmp.${WIKIPRONFILE}-words | sed 's/./& /g;s/\ $//' >  tmp.${WIKIPRONFILE}-wo
 paste tmp.${WIKIPRONFILE}-wordssep tmp.${WIKIPRONFILE}-prons > tmp.${WIKIPRONFILE}-newsform.input
 
 cd ../../m2m-aligner/
-./m2m-aligner -i ../contextual_char_emb2022/utils/tmp.${WIKIPRONFILE}-newsform.input -o  ../contextual_char_emb2022/utils/tmp.${WIKIPRONFILE}-newsform.output
+./m2m-aligner -i ../hidden_folk_repository/utils/tmp.${WIKIPRONFILE}-newsform.input -o  ../hidden_folk_repository/utils/tmp.${WIKIPRONFILE}-newsform.output
 
-cd ../contextual_char_emb2022/utils
+cd ../hidden_folk_repository/utils
 
 cat tmp.${WIKIPRONFILE}-newsform.output | cut -f1 | sed 's/://g;s/\|//g' > tmp.${WIKIPRONFILE}-newsform.output_words
 cat tmp.${WIKIPRONFILE}-newsform.output | sed 's/://g;s/\|/ /g' > tmp.${WIKIPRONFILE}-newsform.alignedcols12

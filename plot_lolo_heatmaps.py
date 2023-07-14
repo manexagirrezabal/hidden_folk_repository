@@ -4,8 +4,9 @@ from matplotlib import pyplot as plt
 import sys
 import os
 
-#lang_abbrevs = {"swedish": "sv", "danish": "da", "faroese": "fa", "finnish": "fi", "norwegian": "no", "icelandic": "is"}
-lang_abbrevs = {'vi': 'vi', 'esc': 'esc', 'uk': 'uk', 'hyw': 'hyw', 'lt': 'lt', 'fi': 'fi', 'bg': 'bg', 'da': 'da', 'hye': 'hye', 'esl': 'esl', 'de': 'de', 'mk': 'mk', 'hi': 'hi', 'eo': 'eo', 'la': 'la', 'ro': 'ro', 'tl': 'tl', 'nl': 'nl', 'en': 'en', 'jak': 'jak', 'cs': 'cs', 'ru': 'ru', 'fo': 'fo', 'hu': 'hu'}
+lang_abbrevs = {"swedish": "sv", "danish": "da", "faroese": "fo", "finnish": "fi", "norwegian": "no", "icelandic": "is"}
+lang_abbrevs = {"sv": "swedish", "da": "danish", "fo": "faroese", "fi": "finnish", "no": "norwegian", "is": "icelandic"}
+#lang_abbrevs = {'vi': 'vi', 'esc': 'esc', 'uk': 'uk', 'hyw': 'hyw', 'lt': 'lt', 'fi': 'fi', 'bg': 'bg', 'da': 'da', 'hye': 'hye', 'esl': 'esl', 'de': 'de', 'mk': 'mk', 'hi': 'hi', 'eo': 'eo', 'la': 'la', 'ro': 'ro', 'tl': 'tl', 'nl': 'nl', 'en': 'en', 'jak': 'jak', 'cs': 'cs', 'ru': 'ru', 'fo': 'fo', 'hu': 'hu'}
 
 feature_set = "global_type_vowel" #diacritic, consonant, vowel
 
@@ -36,6 +37,7 @@ for file in os.listdir("probing_results/"):
 print(len(results_all))
 
 chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y','z']
+chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y','z']
 #print(results_all.columns)
 results_all = results_all[['language']+chars]
 #results_all = results_all[['language', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'x', 'y', 'á', 'å', 'æ', 'é', 'í', 'ð', 'ó', 'ö', 'ø', 'ú', 'ý']]

@@ -8,12 +8,12 @@ import sys
 import os
 
 langs = {
-#    "dan":"danish",
-#    "fao":"faroese",
-#    "fin":"finnish",
-#    "isl":"icelandic",
-#    "nob":"norwegian",
-#    "swe":"swedish",
+    "da":"danish",
+    "fo":"faroese",
+    "fi":"finnish",
+    "is":"icelandic",
+    "no":"norwegian",
+    "sv":"swedish",
 #    "bog":"bogstavlydDK",
 #    "eng":"english",
 #    "eus":"basque",
@@ -35,12 +35,12 @@ langs = {
 "eo":"esperanto",
 "uk":"ukrainian",
 "hi":"hindi",
-"da":"danish",
+#"da":"danish",
 "tl":"tagalog",
 "bg":"bulgarian",
 "ro":"romanian",
 "jak":"japanese katakana",
-"fo":"faroese",
+#"fo":"faroese",
 "en":"english",
 "nl":"dutch"
 }

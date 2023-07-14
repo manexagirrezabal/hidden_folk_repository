@@ -100,4 +100,4 @@ for feature in check_for:
         print()
 
 print(results_df)
-results_df.to_csv("new_probing_results/"+lang+"-8020.csv", index=False)
+results_df.to_csv("probing_results/"+lang+"-8020.csv", index=False)
