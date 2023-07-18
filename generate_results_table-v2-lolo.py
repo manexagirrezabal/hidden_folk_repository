@@ -62,4 +62,4 @@ plt.show()
 
 #print(len(results["feature"].unique()))
 
-#print(results.to_csv("test-table.csv"))
+print(results.to_csv("test-table.csv"))
